@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LCD Car Racing</string>
+    <string name="help_1">播放菜单/搜索键。</string>
+    <string name="help_2">打墙壁放缓。</string>
+    <string name="crash_report">致命错误！发送到开发人员的报告... ...</string>
+</resources>

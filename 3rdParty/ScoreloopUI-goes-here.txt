@@ -1,0 +1,1 @@
+Download the latest ScoreloopUI library for Android from https://developer.scoreloop.com/ and put it here, then update the main project library references.

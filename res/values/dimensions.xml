@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="container_margin_top">10dp</dimen>
+    <dimen name="container_width">300dp</dimen>
+    <dimen name="container_height">310dp</dimen>
+    
+    <dimen name="lcd_margin_top">30dp</dimen>
+    <dimen name="lcd_margin_top_offset">29dp</dimen>
+    <dimen name="lcd_margin_left">50dp</dimen>
+    <dimen name="lcd_margin_left_offset">49dp</dimen>
+    
+    <dimen name="btn_size">40dp</dimen>
+    <dimen name="btn_outline">3dp</dimen>
+    <dimen name="big_btn_size">100dp</dimen>
+    <dimen name="big_btn_outline">3dp</dimen>
+    
+    <dimen name="start_btn_top">35dp</dimen>
+    <dimen name="start_btn_right">70dp</dimen>
+    <dimen name="menu_btn_top">10dp</dimen>
+    <dimen name="menu_btn_right">10dp</dimen>
+    <dimen name="big_btn_top">100dp</dimen>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LCD Car Racing</string>
+    <string name="help_1">Play with MENU / SEARCH keys.</string>
+    <string name="help_2">Hit the walls to slow down.</string>
+    <string name="crash_report">Fatal error! Sending report to developer...</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LCD Car Racing</string>
+    <string name="help_1">Juega con MENÚ / BUSCAR llaves.</string>
+    <string name="help_2">Golpear las paredes para reducir la velocidad.</string>
+    <string name="crash_report">Error fatal! El envío de informe al desarrollador ...</string>
+</resources>

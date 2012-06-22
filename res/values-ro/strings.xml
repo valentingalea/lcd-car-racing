@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LCD Car Racing</string>
+    <string name="help_1">Joacă-te cu tastele MENU / CĂUTARE.</string>
+    <string name="help_2">Loveşte pereţii pentru a încetini.</string>
+    <string name="crash_report">Eroare fatală! Se trimite raport către dezvoltator ...</string>
+</resources>

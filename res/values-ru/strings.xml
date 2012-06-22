@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LCD Car Racing</string>
+    <string name="help_1">Играйте с МЕНЮ / ПОИСК ключей.</string>
+    <string name="help_2">Хит стены замедляться.</string>
+    <string name="crash_report">Фатальная ошибка! Отчет об отправке разработчику ...</string>
+</resources>

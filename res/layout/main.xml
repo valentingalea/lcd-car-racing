@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/container_margin_top" >
+
+        <View
+            android:id="@+id/container"
+            android:layout_width="@dimen/container_width"
+            android:layout_height="@dimen/container_height"
+            android:background="@drawable/roundrect" />
+
+        <!-- LCD display -->
+        <!-- horizontal shadow line -->
+
+        <View
+            android:layout_width="201dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/lcd_margin_left_offset"
+            android:layout_marginTop="@dimen/lcd_margin_top_offset"
+            android:background="#000000" />
+
+        <!-- vertical shadow line -->
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="242dp"
+            android:layout_marginLeft="@dimen/lcd_margin_left_offset"
+            android:layout_marginTop="@dimen/lcd_margin_top"
+            android:background="#000000" />
+
+        <FrameLayout
+            android:layout_width="200dp"
+            android:layout_height="242dp"
+            android:layout_marginLeft="@dimen/lcd_margin_left"
+            android:layout_marginTop="@dimen/lcd_margin_top"
+            android:background="#798836" >
+
+            <WebView
+                android:id="@+id/browser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <!-- START button -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/container"
+            android:layout_below="@id/container"
+            android:layout_marginRight="@dimen/start_btn_right"
+            android:layout_marginTop="@dimen/start_btn_top"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/go"
+                android:layout_width="@dimen/btn_size"
+                android:layout_height="@dimen/btn_size"
+                android:background="@drawable/button" />
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="START"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- MENU button -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/container"
+            android:layout_below="@id/container"
+            android:layout_marginRight="@dimen/menu_btn_top"
+            android:layout_marginTop="@dimen/menu_btn_top"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/menu"
+                android:layout_width="@dimen/btn_size"
+                android:layout_height="@dimen/btn_size"
+                android:background="@drawable/button" />
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/scoreloop" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="@dimen/big_btn_size"
+            android:layout_height="@dimen/big_btn_size"
+            android:layout_alignLeft="@id/container"
+            android:layout_below="@id/container"
+            android:layout_marginTop="@dimen/big_btn_top" >
+
+            <Button
+                android:id="@+id/left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/big_button" />
+
+            <include layout="@layout/ic_menu" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="@dimen/big_btn_size"
+            android:layout_height="@dimen/big_btn_size"
+            android:layout_alignRight="@id/container"
+            android:layout_below="@id/container"
+            android:layout_marginTop="@dimen/big_btn_top" >
+
+            <Button
+                android:id="@+id/right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/big_button" />
+
+            <include layout="@layout/ic_search" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</FrameLayout>

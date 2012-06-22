@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LCD Car Racing</string>
+    <string name="help_1">Jouez avec MENU / RECHERCHE touches.</string>
+    <string name="help_2">Frappez les murs à ralentir..</string>
+    <string name="crash_report">Erreur irrécupérable! Envoi du rapport aux développeurs ...</string>
+</resources>

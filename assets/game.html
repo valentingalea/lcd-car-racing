@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<head>
+	<title>LCD Car Racing</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	<script type="text/javascript" src="game.js"></script>
+</head>
+
+<body>
+
+	<script type="text/javascript">
+	//<![CDATA[
+		drawHTML();
+		doRestart( true );
+		
+	//]]>
+	</script>
+	
+	<table id="ledDisplay">
+		<tr><td>LEVEL</td></tr>
+		<tr><td id="ui_level">0</td></tr>
+		<tr><td></td></tr>
+		<tr><td>SCORE</td></tr>
+		<tr><td id="ui_score">0</td></tr>
+		<tr><td></td></tr>
+		<tr><td>SPEED</td></tr>
+		<tr><td id="ui_kmh">0</td></tr>
+	</table>	
+
+	<script type="text/javascript">
+	//<![CDATA[
+		var led = document.getElementById("ledDisplay");
+		led.style.marginTop = scale(50) + "px";
+		led.style.marginRight = scale(5) + "px";
+		led.style.fontSize = scale(14) + "px";
+	//]]>
+	</script>	
+</body>
+
+</html>

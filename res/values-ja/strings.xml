@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LCD Car Racing</string>
+    <string name="help_1">MENU / SEARCHキーでプレイ。</string>
+    <string name="help_2">遅くに壁をヒット。</string>
+    <string name="crash_report">致命的なエラー！開発者にレポートを送信中...</string>
+</resources>
