@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="container_margin_top">1dp</dimen>
+    
+    <dimen name="btn_size">40dp</dimen>
+    <dimen name="btn_outline">3dp</dimen>
+    <dimen name="big_btn_size">80dp</dimen>
+    <dimen name="big_btn_outline">3dp</dimen>
+    
+    <dimen name="start_btn_top">5dp</dimen>
+    <dimen name="start_btn_right">150dp</dimen>
+    <dimen name="menu_btn_top">5dp</dimen>
+    <dimen name="menu_btn_right">100dp</dimen>
+    <dimen name="big_btn_top">25dp</dimen>
+
+</resources>

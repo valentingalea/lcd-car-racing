@@ -1,0 +1,10 @@
+* Alternate resources for different Android OS'es
+
+the ic_menu.xml and ic_search.xml shapes utilize some features that aren't
+available on OS 2.1, therefore dummy versions for them have been created;
+
+BUT a layout-vX with X being the API level number, provides resources for
+that API level and beyond! So it is necessary to create 2 folders:
+layout-v7 - for OS 2.1
+layout-v8 - for OS 2.2 and greater
+layout simple is the default case for the other resources.
